@@ -20,9 +20,9 @@ class BarCodeViewController: UIViewController, AVCaptureMetadataOutputObjectsDel
 
     //MARK: Properties
     /// Runs the capture session.
-    let captureSession = AVCaptureSession()
+   // let captureSession = AVCaptureSession()
     /// The device used as input for the capture session.
-    var captureDevice:AVCaptureDevice?
+   // var captureDevice:AVCaptureDevice?
     /// The UI layer to display the feed from the input source, in our case, the camera.
     var captureLayer:AVCaptureVideoPreviewLayer?
     
